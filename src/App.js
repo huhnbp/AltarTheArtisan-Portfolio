@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 import MyHeader from './components/header.tsx'
@@ -8,7 +7,7 @@ import ContactMe from './components/ContactMe.tsx'
 
 function App() {
   return (
-    <div className="App" style={{backgroundColor:'#D4BACB'}}>
+    <div className="App" style={{backgroundColor:'#D4BACB', cursor: "url('assets/cute_cookie.png'),auto"}}>
       <MyHeader/>
       <Home/>
       <StandardImageList />
